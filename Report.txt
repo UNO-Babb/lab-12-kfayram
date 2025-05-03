@@ -3,29 +3,29 @@ Name:
 Number of elements:
 
 Bubble Sort
-Sorted:
-Reversed:
-Random:
+Ordered list time: 2.52866 seconds
+Reversed list time: 5.89375 seconds
+Random list time: 4.53753 seconds
 
 Bubble Sort Early Exit
-Sorted:
-Reversed:
-Random:
+Ordered list time: 0.00055 seconds
+Reversed list time: 5.91056 seconds
+Random list time: 4.55569 seconds
 
 Selection Sort
-Sorted:
-Reversed:
-Random:
+Ordered list time: 1.83445 seconds
+Reversed list time: 1.98902 seconds
+Random list time: 1.91222 seconds
 
 Insertion Sort
-Sorted:
-Reversed:
-Random:
+Ordered list time: 0.00097 seconds
+Reversed list time: 4.45282 seconds
+Random list time: 2.27822 seconds
 
 Merge Sort
-Sorted:
-Reversed:
-Random:
+Ordered list time: 0.02128 seconds
+Reversed list time: 0.02935 seconds
+Random list time: 0.02803 seconds
 
 Questions to answer:
 1) What was the worst case scenario for any sorting technique?
