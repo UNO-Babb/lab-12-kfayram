@@ -29,16 +29,20 @@ Random list time: 0.02803 seconds
 
 Questions to answer:
 1) What was the worst case scenario for any sorting technique?
-
+    bubble sort took the longest out of them all
 
 2) The first 3 sorts have the same runtime of O(n^2). Why were the times different? Why would one be more efficient than the others?
-
+    they all have different algorithms that let them do different things
+    bubble sort can make unecessary swaps while early exit can skip this if the data is already sorted 
+    selection sort avoids this and will generally be faster the more items in a data set.
 
 3) Why was merge sort so much more efficient?
-
+    it takes the data set and splits them up to more manageable problems and then works through them
 
 4) The built-in sorting technique for most programming languages is known as TimSort.
 This is a merge sort until the arrays have fewer than 10 elements, then it does an insertion sort. Why would this be useful?
-
+    it would be more efficient for a different sort to be done under a certain amount of elements. 
+    merge support has a lot more code to run so when you get down to the smaller element lists then a different sort would be better and faster
 
 5) What issues can you see with a recursive sorting technique like merge sort?
+    High memory usage especially with large data sets
